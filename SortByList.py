@@ -1,6 +1,7 @@
 import glob
 import shutil
 
+# list = values that you want to move, file extension = eg. fasta, originFolderPath & destinationFolderPath = folderName of items
 def SortByList(listPath, fileExtension, originFolderPath, destinationFolderPath):
     files = glob.glob(originFolderPath+"\\*."+fileExtension)
     list = open(listPath, "r").read()
