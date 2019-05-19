@@ -10,3 +10,4 @@ SDMiniTools is a collection of small services and utilities, written in Python.
 
 **Utilities:**
 - SortByList - Provide a list of items, a file extension, and two directories and they will get sorted
+- convert2grey - Provide image path, converts to "grey.png" greyscale image
